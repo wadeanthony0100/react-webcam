@@ -141,7 +141,7 @@ export default class Webcam extends Component {
       src
     });
 
-    this.props.onUserMedia();
+    this.props.onUserMedia(stream);
   }
 
   componentWillUnmount() {
